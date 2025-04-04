@@ -3,20 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to My GitHub Page</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Optional CSS file -->
+    <title>Subhankar Roy - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Hello, I'm Subhankar Roy!</h1>
-        <p>Welcome to my GitHub Pages site.</p>
+        <div class="container">
+            <h1>Subhankar Roy</h1>
+            <p>Web Developer | Software Engineer</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <h2>About Me</h2>
-        <p>Here you can add information about yourself, your projects, and your interests.</p>
-    </main>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm Subhankar, a passionate web developer with experience in building dynamic and responsive websites. I love coding and am always eager to learn new technologies.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>A brief description of your project goes here. Explain what technologies you used and what the project is about.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>A brief description of your project goes here. Explain what technologies you used and what the project is about.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Project 3</h3>
+                <p>A brief description of your project goes here. Explain what technologies you used and what the project is about.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Git</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
     <footer>
-        <p>Connect with me on <a href="https://github.com/S4Roy">GitHub</a>.</p>
+        <div class="container">
+            <p>&copy; 2023 Subhankar Roy. All rights reserved.</p>
+        </div>
     </footer>
 </body>
-</html>    
+</html>
